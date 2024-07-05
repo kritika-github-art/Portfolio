@@ -1,0 +1,109 @@
+
+body {
+    background-color: #f9f8f7;
+}
+
+.nav-link{
+    color: #0639c8;
+    font-size: 20px;
+}
+
+h5{
+    color: #056ce1;
+    height: 10px;
+}
+
+.container{
+    color: rgb(249, 246, 246);
+}
+
+.hero-section {
+    height: 100vh;
+   background-image: url(background-2428462_1280.webp);
+   size: 1000px;
+   padding: 100px 0;
+   color: black;
+}
+
+.of{
+background-image: url(geometric-1732847_1280.webp) ;
+height: 300px;
+
+}
+
+.queen{
+    background-image:url(geometric-1732847_1280.webp)  ;
+}
+
+.king{
+    background-image:  url(background-2428462_1280.webp);
+}
+
+.just{
+    background-image: url(geometric-1732847_1280.webp);
+}
+
+.hero-section .btn-primary {
+    background-color: #0910d3;
+    color: rgb(242, 243, 247);
+    border: none;
+    width: 210px;
+   
+}
+
+.hero-section .btn-primary:hover {
+    background-color: #8a8785;
+}
+
+.social-sidebar {
+    position: fixed;
+    left: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.social-sidebar a {
+    color: rgb(253, 252, 250);
+    font-size: 24px;
+}
+
+.social-sidebar a:hover {
+    color: #5fbeee;
+}
+
+.card-body{
+background-color: rgb(242, 240, 240);
+color: rgb(15, 14, 14);
+
+}
+
+.btn{
+    background-color: #0d2bea;
+    color: #f5f3f1;
+}
+
+.custom-button {
+    background-color: #0d2bea;
+    color: rgb(246, 246, 249);
+}
+
+
+.right-image {
+    width: 100px;
+    height: auto;
+    margin-top: 90px;
+    float: right;
+  }
+  
+
+  .card {
+    transition: transform 0.1s, box-shadow 0.1s;
+}
+
+.card:hover {
+    transform: scale(1.05) rotate(-0deg);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
